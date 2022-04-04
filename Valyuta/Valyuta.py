@@ -5,7 +5,7 @@ import json
 btn = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
 btn.add("USD-UZS", "RUB-UZS", "EURO-UZS", "CNY-UZS", "WON-UZS", "DINOR-UZS")
 
-token = "5207807392:AAGbUhZXcFwnUmpo2BSAfEtkOWwg9V1YgOs"
+token = "Bot_token"
 bot = Bot(token=token)
 dp = Dispatcher(bot)
 
